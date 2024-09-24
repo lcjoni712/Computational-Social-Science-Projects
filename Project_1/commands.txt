@@ -1,0 +1,89 @@
+lande@DESKTOP-7TI6MML MINGW64 ~
+$ git clone ^[[200~https://github.com/lcjoni712/Computational-Social-Science-Projects.git~
+Cloning into 'Computational-Social-Science-Projects.git~'...
+fatal: protocol '?[200~https' is not supported
+
+lande@DESKTOP-7TI6MML MINGW64 ~
+$ git clone https://github.com/lcjoni712/Computational-Social-Science-Projects.git
+fatal: destination path 'Computational-Social-Science-Projects' already exists and is not an empty directory.
+
+lande@DESKTOP-7TI6MML MINGW64 ~
+$ cd Computational-Social-Science-Projects
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects (main)
+$ cd "Project_1"
+bash: cd: Project_1: No such file or directory
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects (main)
+$ mkdir "Project_1"
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects (main)
+$ cd "Project_1"
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ touch commands.txt
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ code commands.txt
+bash: code: command not found
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ ^[[200~# Cloning the repository
+# Navigating to the repository folder
+cd repository
+
+# Creating a new folder
+mkdir "Project 1"
+
+# Navigating to the new folder
+cd "Project 1"
+
+# Creating a text file
+touch commands.txt
+
+# Adding files to git
+git add .
+
+# Committing changes
+bash: $'\E[200~#': command not found
+git commit -m "Added Project 1 folder and commands.txt"
+
+# Pushing changes to GitHub
+git push origin main
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ touch commands.txt
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ code commands.txt
+bash: code: command not found
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ touch commands.txt
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ git add .
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ git commit -m "Added Project 1 folder and commands.txt"
+[main 988d30a] Added Project 1 folder and commands.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Project_1/commands.txt
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$ git push origin main
+fatal: unable to connect to cache daemon: Unknown error
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 356 bytes | 356.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/lcjoni712/Computational-Social-Science-Projects.git
+   62dc28e..988d30a  main -> main
+
+lande@DESKTOP-7TI6MML MINGW64 ~/Computational-Social-Science-Projects/Project_1 (main)
+$
